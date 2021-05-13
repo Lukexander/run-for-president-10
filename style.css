@@ -1,0 +1,57 @@
+.choices {
+    padding: 5px;
+    border: 1px solid;
+}
+
+container {
+    font-size: 30px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+top, foot {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    flex-direction: row;
+}
+
+foot {
+    margin-bottom: 0;
+}
+
+#score {
+    /* margin-left: 15px; */
+    background-color: white
+}
+
+#timer {
+    /* margin-right: 15px; */
+    background-color: white
+}
+
+img {
+    margin: auto;
+    width: 240px;
+}
+
+#yes {
+    color: green;
+    border-color: green;
+    background-color: white
+
+}
+
+#no {
+    color: red;
+    font-weight: 800;
+    border-color: red;
+background-color: white
+}
+@media only screen and (min-width:600px){
+    img {
+        width: 480px;
+    }
+    
+}
